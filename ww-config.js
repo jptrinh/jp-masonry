@@ -55,7 +55,7 @@ export default {
     columnWidth: {
       label: { en: 'Column Width' },
       type: 'Number',
-      section: 'settings',
+      section: 'style',
       bindable: true,
       defaultValue: 300,
       options: {
@@ -76,7 +76,7 @@ export default {
     gap: {
       label: { en: 'Gap' },
       type: 'Number',
-      section: 'settings',
+      section: 'style',
       bindable: true,
       defaultValue: 16,
       options: {
