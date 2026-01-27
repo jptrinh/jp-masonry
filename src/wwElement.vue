@@ -21,10 +21,6 @@
         </div>
       </template>
     </MasonryWall>
-
-    <div v-else class="masonry-empty">
-      <span class="empty-text">{{ content?.emptyText || 'No items to display' }}</span>
-    </div>
   </div>
 </template>
 
@@ -106,18 +102,5 @@ export default {
 
 .masonry-item-content {
   width: 100%;
-}
-
-.masonry-empty {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 200px;
-  color: #666;
-  font-size: 14px;
-}
-
-.empty-text {
-  opacity: 0.7;
 }
 </style>

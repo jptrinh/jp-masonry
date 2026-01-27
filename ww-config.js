@@ -94,22 +94,5 @@ export default {
       },
       /* wwEditor:end */
     },
-
-    // ============================================
-    // EMPTY STATE
-    // ============================================
-    emptyText: {
-      label: { en: 'Empty Text' },
-      type: 'Text',
-      section: 'settings',
-      bindable: true,
-      defaultValue: 'No items to display',
-      /* wwEditor:start */
-      bindingValidation: {
-        type: 'string',
-        tooltip: 'Text to display when items array is empty',
-      },
-      /* wwEditor:end */
-    },
   },
 }
