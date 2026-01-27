@@ -1,0 +1,14 @@
+{
+  "name": "jp-masonry-v2",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "dependencies": {
+    "@yeger/vue-masonry-wall": "5.0.8"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
